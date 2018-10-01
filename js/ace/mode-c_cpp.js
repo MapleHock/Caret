@@ -158,11 +158,14 @@ var c_cppHighlightRules = function() {
                 token : "support.function.C99.c",
                 regex : cFunctions
             }, {
+                token : "entity.name.function",
+                regex : "TODO" //TODO
+            }, {
                 token : keywordMapper,
                 regex : "[a-zA-Z_$][a-zA-Z0-9_$]*"
             }, {
-                token : "keyword.operator",
-                regex : /--|\+\+|<<=|>>=|>>>=|<>|&&|\|\||\?:|[*%\/+\-&\^|~!<>=]=?/
+                // token : "keyword.operator",
+                // regex : /--|\+\+|<<=|>>=|>>>=|<>|&&|\|\||\?:|[*%\/+\-&\^|~!<>=]=?/
             }, {
               token : "punctuation.operator",
               regex : "\\?|\\:|\\,|\\;|\\."
